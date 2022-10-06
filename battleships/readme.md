@@ -13,3 +13,7 @@ https://user-images.githubusercontent.com/83777519/194407070-3f96d056-9d36-4240-
 2. Paste the code in a web console
 3. If you can, play your turn or wait till someone plays a turn
 4. Once someone has played the autoplay will start
+
+
+https://user-images.githubusercontent.com/83777519/194407822-5c3fa2ff-bc4b-4a61-bce5-e09eebc3b0c5.mp4
+
