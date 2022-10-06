@@ -1,1 +1,10 @@
-const joinSpam=(o,m)=>{for(let a=0;a<o;a++)socket.emit("joinRoom",{room:m,player:"funny-"+Math.floor(1e6*Math.random())})};joinSpam(prompt("How many players?"),prompt("Room name?"));
+const joinSpam = (amount, room) => {
+    for (let i = 0; i < amount; i++) {
+        socket.emit("joinRoom", {
+            room: room,
+            player: "funny-" + Math.floor(Math.random() * 1000000)
+        })
+    }
+}
+
+joinSpam(prompt("How many players?"), prompt("Room name?"))
