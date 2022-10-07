@@ -25,13 +25,6 @@ const showShips = () => {
     });
 }
 
-const randomShip = () => {
-    let ships = getShips();
-    let ship = ships[Math.floor(Math.random() * ships.length)];
-
-    return ship;
-}
-
 const isCoordsHit = (coords) => {
     let ship = board.querySelector(`[coordinates="${coords}"]`);
 
